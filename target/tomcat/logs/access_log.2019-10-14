@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [14/Oct/2019:23:18:25 +0530] "GET /harsh.co?name=Make%20Tea HTTP/1.1" 200 222 http-bio-8080-exec-4 1234
+0:0:0:0:0:0:0:1 - - [14/Oct/2019:23:18:41 +0530] "GET /harsh.co?name=Make%20Tea&password=12345eer HTTP/1.1" 200 230 http-bio-8080-exec-4 2
+0:0:0:0:0:0:0:1 - - [14/Oct/2019:23:42:59 +0530] "GET /harsh.co?name=Make%20Tea&password=12345eer HTTP/1.1" 200 321 http-bio-8080-exec-7 84
+0:0:0:0:0:0:0:1 - - [14/Oct/2019:23:43:06 +0530] "GET / HTTP/1.1" 404 951 http-bio-8080-exec-7 3
+0:0:0:0:0:0:0:1 - - [14/Oct/2019:23:43:13 +0530] "GET /harsh.co HTTP/1.1" 200 321 http-bio-8080-exec-7 3
+0:0:0:0:0:0:0:1 - - [14/Oct/2019:23:45:27 +0530] "GET /harsh.co HTTP/1.1" 200 321 http-bio-8080-exec-5 21
+0:0:0:0:0:0:0:1 - - [14/Oct/2019:23:45:38 +0530] "POST /harsh.co HTTP/1.1" 200 219 http-bio-8080-exec-5 234
