@@ -7,7 +7,10 @@
 <title>Welcome to ToDo App!</title>
 </head>
 <body>
-ToDo Application Welcomes you ${name}. 
-Hello
+Login Successful!
+<h1>Welcome ${name}.</h1>
+<br>
+My To DO List:
+<h4>${todos}</h4>
 </body>
 </html>

@@ -8,8 +8,11 @@
 </head>
 <body>
 <form action = "/harsh.co" method = "post">
-	Enter your Name : <input type = "text" name="name"/>
+	<h5>Username : <input type = "text" name="name"/></h5>
+	<h5>Password : <input type = "password" name="password"/></h5>
+	<br>
 	<input type = "submit" value="Submit"/>
+	<p><font color="red">${errorMessage}</font></p>
 </form>
 </body>
 </html>
